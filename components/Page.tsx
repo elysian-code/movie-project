@@ -8,7 +8,7 @@ import { Movie } from '@/typings'
 import { useRecoilValue } from 'recoil';
 import { modalState, movieState } from '@/atoms/modalAtom';
 import Modal from './Modal';
-import Plans from './Plan';
+
 import Loader from './Loader';
 
 interface Props {
